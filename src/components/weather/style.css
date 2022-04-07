@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    margin: auto;
+    background-color: #0e0d0d;
+    background:#2F4F4F; 
+    display: grid;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    min-height:100px;
+}
+
+.widge{
+    display: flex;
+    background-color: #fff;
+    height: 400px;
+    width: 600px;
+    margin-left: 400px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow:0 27px 55px 0 rgba(0, 0, 0, 0.3),
+    0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    
+}
+
+.widge .weatherIcon{
+    
+    align-items: center;
+    flex: 1 100%;
+    height: 40%;
+    align-content: center;
+    justify-content:space-around;
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.widge .weatherInfo{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    align-items: center;
+    height: 30%;
+    flex:  70%;
+    background: #080705;
+    color: white;
+}
+
+.widge .weatherInfo .temperature{
+    margin-left: 8px;
+    font-size: 40px;
+    justify-content: space-around;
+    display: flex;
+    flex: 0 0 40%;
+    
+}
+
+.widge .weatherInfo .description{
+    display:block;
+    margin-left: 30px;
+    height: inherit;
+    justify-content: center;
+    font-family:ui-sans-serif ;
+
+
+}
+
+.widge  .weatherInfo  .description .weatherCondition{
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.widge .description .place {
+    margin-top: 5px;
+    justify-content: center;
+}
+.widge .date{
+    display: flex;
+    flex:0 0 30%;
+    background: rgba(24, 221, 221, 0.911);
+    justify-content: space-evenly;
+    font-size: 23px;
+    height: 30%;
+    align-items: center;
+    font-weight: 600;
+    text-align: center;
+}
+
+.widge .extra-temp{
+    display: grid;
+    flex:1 100%;
+    padding: 5% 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    background: rgb(243, 188, 188);
+}
+.widge .extra-temp p{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.temp-info-minmax,
+.weather-extra-info,
+.two-sided-section{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    color: rgb(14, 196, 84);
+    
+}
+.widge .extra-temp .extra-info-leftside {
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000000;
+    font-size: 15px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.searchTerm{
+    width: 50%;
+    border: none;
+    padding: 16px;
+    display:flex ;
+    font-size: 20px;
+
+}
+.searchButton{
+    padding: 5px;
+    border-radius: 5px;
+    background: aquamarine;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.searchButton:hover{
+    background-color: #fff;
+
+}
+
+
