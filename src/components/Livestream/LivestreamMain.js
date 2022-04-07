@@ -11,13 +11,12 @@ const LivestreamMain = () => {
         <>
 
           <div className='navbar'>
-                <nav>
+                <div>
+                    <div className='navbar-logo'><img src="https://shaka-player-demo.appspot.com/demo/shaka_logo_trans.png" alt="shaka_player" /></div>
                     <button className='btn-group-navbar' >Home</button>
-                    <button className='btn-group-navbar'>All</button>
-                    <button className='btn-group-navbar'>All</button>
-                    <button className='btn-group-navbar'>All</button>
-    
-              </nav>
+                    <button className='btn-group-navbar'>About Us</button>
+                    <button className='btn-group-navbar'>Contact Us</button>
+              </div>
           </div>
 
             <Livestream menuData = {menuData}/>

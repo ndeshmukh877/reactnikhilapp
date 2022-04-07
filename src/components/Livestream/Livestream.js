@@ -1,4 +1,5 @@
 import React from 'react';
+// import ReactPlayer from 'react-player';
 
 const Livestream = ({ menuData}) => {
     // console.log(menuData);
@@ -11,7 +12,7 @@ const Livestream = ({ menuData}) => {
                       <div className='card-container'>
                           <div className='card'>
                               <div className='card-body'>
-                              <img src={curElem.image}alt="RRR MOVIE" />
+                              <img src={curElem.image}alt="movie-poster" />
                                   <span className='title'>{curElem.title}</span>
                                   <span>
                                       <h1>{curElem.description}</h1>
@@ -20,19 +21,16 @@ const Livestream = ({ menuData}) => {
                                   <a href={curElem.url}>
                                       <button className='btn' >PLAY</button>
                                   </a>
-                                
+                                  {/* <ReactPlayer url={curElem.url}/> */}
                                  </div>
                               </div>
                           </div>
-                      </div>
-                  
+                      </div>   
               )
           })}
           </section>
 
           <div>
-
-
               <footer className='footer'>
                   @copyright_since_2022
               </footer>
