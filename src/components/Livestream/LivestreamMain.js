@@ -5,7 +5,7 @@ import Livestream from './Livestream';
 
 const LivestreamMain = () => {
 
-     const[menuData, setMenuData] = useState(Data);
+     const[menuData] = useState(Data);
      
     return (
         <>

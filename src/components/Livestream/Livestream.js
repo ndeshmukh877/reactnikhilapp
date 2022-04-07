@@ -12,8 +12,8 @@ const Livestream = ({ menuData}) => {
                       <div className='card-container'>
                           <div className='card'>
                               <div className='card-body'>
-                              <img src={curElem.image}alt="movie-poster" />
-                                  <span className='title'>{curElem.title}</span>
+                                  <span className='card-title'>{curElem.title}</span>
+                              <div>  <img src={curElem.image} alt="movie-poster" /></div>
                                   <span>
                                       <h1>{curElem.description}</h1>
                                   </span>

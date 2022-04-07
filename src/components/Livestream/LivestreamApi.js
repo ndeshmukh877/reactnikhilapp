@@ -17,7 +17,7 @@ const Data = [
     {
         title:"I Am Legend",
         image:  "../images/imlegend.jpg",
-        description:"I Am Legend (2007) Official Trailer",
+        description:"I Am Legend   (2007)   Official   Trailer",
         url:"https://www.youtube.com/watch?v=dtKMEAXyPkg",
     },
 
